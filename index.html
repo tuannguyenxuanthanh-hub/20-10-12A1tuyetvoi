@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#FFF9F5">
+<title>Nhật ký thanh xuân • Món quà 20/10 — A1</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+:root{--paper:#fff9f5;--pink:#f3d6d0;--sage:#dce5d8;--ink:#5e514d;--muted:#9a8983;--accent:#e8b9b0;--blush:#cf948d;--shadow:0 19px 55px rgba(110,78,69,.13);--smooth:cubic-bezier(.22,1,.36,1)}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;min-width:320px;background:var(--paper);color:var(--ink);font:400 15px/1.7 'Be Vietnam Pro',Arial,sans-serif;overflow-x:hidden}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:2px solid #ad817a;outline-offset:4px}button:disabled{cursor:wait} [hidden]{display:none!important}
+.paper-bg{background:radial-gradient(ellipse at 14% 15%,rgba(243,214,208,.42),transparent 38%),radial-gradient(ellipse at 83% 82%,rgba(220,229,216,.50),transparent 35%),var(--paper)}
+.paper-bg::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:35;opacity:.13;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.86' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E")}
+.serif{font-family:'Lora',Georgia,serif}.script{font-family:'Dancing Script','Segoe Script',cursive}.eyebrow{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#9c817a}.soft-line{width:72px;height:1px;margin:22px auto;background:#d8aca3}
+.view{min-height:100svh;position:relative;overflow:hidden}.page-fade{animation:pageEnter 1.05s var(--smooth) both}@keyframes pageEnter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.corner-music{position:fixed;right:clamp(15px,3vw,36px);top:clamp(13px,3vw,28px);z-index:60;border:1px solid #e4cfc6;border-radius:999px;background:rgba(255,249,245,.94);color:var(--ink);padding:9px 13px;display:flex;align-items:center;gap:7px;box-shadow:0 7px 24px rgba(91,67,57,.08);font-size:12px;font-weight:600;transition:background .3s ease,transform .3s ease}.corner-music:hover{background:white;transform:translateY(-2px)}.corner-music .music-symbol{font-size:17px}
+.decor-layer{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}.petal{position:absolute;top:-11%;width:11px;height:17px;background:var(--pink);border:1px solid rgba(198,135,126,.12);border-radius:80% 0 80% 0;opacity:.48;animation:petalFall var(--fall,12s) linear infinite;animation-delay:var(--delay,0s);left:var(--left,50%)}@keyframes petalFall{0%{transform:translate3d(0,-10vh,0) rotate(-16deg);opacity:0}15%{opacity:var(--opacity,.36)}55%{transform:translate3d(40px,49vh,0) rotate(100deg)}85%{opacity:var(--opacity,.36)}100%{transform:translate3d(-22px,115vh,0) rotate(230deg);opacity:0}}.spark{position:absolute;left:var(--left,50%);top:var(--top,50%);font-family:Georgia,serif;color:#bda49b;opacity:.22;animation:sparkHover var(--duration,11s) ease-in-out infinite alternate;animation-delay:var(--delay,0s)}@keyframes sparkHover{from{transform:translate3d(0,2px,0);opacity:.09}to{transform:translate3d(7px,-6px,0);opacity:.32}}
+/* Opening: slow bouquet bloom */
+.intro-view{display:grid;place-items:center;padding:65px 20px 44px;text-align:center;isolation:isolate}.intro-inner{position:relative;z-index:2;max-width:690px;width:100%;margin:auto}.intro-heading{font:400 clamp(29px,5vw,51px)/1.3 'Lora',Georgia,serif;letter-spacing:-.045em;margin:14px 0 6px}.intro-sub{color:var(--muted);font-size:13px;letter-spacing:.02em;margin:8px 0 5px}.intro-heading,.intro-sub,.intro-eyebrow{animation:softIn 1.2s var(--smooth) both}.intro-sub{animation-delay:.25s}.intro-heading{animation-delay:.1s}@keyframes softIn{from{opacity:0;transform:translateY(13px)}to{opacity:1;transform:translateY(0)}}
+.flower-land{height:clamp(230px,37vh,335px);position:relative;display:flex;align-items:end;justify-content:center;gap:0;margin:16px auto -5px;filter:drop-shadow(0 12px 20px rgba(127,79,70,.08));max-width:590px}.flower-land::after{content:'';position:absolute;width:57%;height:18px;border-radius:50%;bottom:-2px;background:rgba(204,161,153,.13);filter:blur(11px)}.tulip{display:block;position:relative;width:clamp(52px,10vw,97px);height:95%;transform-origin:bottom center;transform:translateY(65px) rotate(var(--tilt,0deg)) scale(.96);opacity:.7;transition:transform 1.55s var(--smooth),opacity 1.5s ease}.tulip svg{width:100%;height:100%;overflow:visible}.tulip .blossom{transform-origin:50% 30%;transform:scale(.6) translateY(18px);opacity:.34;transition:transform 1.4s var(--smooth),opacity 1.4s ease}.tulip:nth-child(1){height:79%;--tilt:-14deg}.tulip:nth-child(2){height:89%;--tilt:-8deg}.tulip:nth-child(3){height:100%;--tilt:0deg}.tulip:nth-child(4){height:88%;--tilt:8deg}.tulip:nth-child(5){height:79%;--tilt:14deg}.intro-view.is-bloomed .tulip{transform:translateY(0) rotate(var(--tilt,0deg)) scale(1);opacity:1;transition-delay:var(--bloom-delay,0s)}.intro-view.is-bloomed .tulip .blossom{transform:scale(1) translateY(0);opacity:1;transition-delay:calc(var(--bloom-delay,0s) + .27s)}
+.hold-wrap{margin:23px auto 0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;transition:opacity .5s ease,transform .5s ease}.hold-button{position:relative;width:103px;height:103px;background:rgba(255,255,255,.48);border:1px solid #e3c9c2;border-radius:50%;color:#8d6b67;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2px;touch-action:none;user-select:none;-webkit-user-select:none;box-shadow:0 12px 38px rgba(155,109,100,.11);transition:transform .35s var(--smooth),background .4s ease}.hold-button:hover{background:#fffefa;transform:scale(1.03)}.hold-button:active{transform:scale(.98)}.hold-button span{position:relative;z-index:2;font-size:12px;font-weight:600;line-height:1.5}.hold-ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}.hold-ring circle{fill:none;stroke:#e5b8ae;stroke-width:3;stroke-dasharray:264;stroke-dashoffset:264;transition:stroke-dashoffset .2s linear}.hold-button.is-holding .hold-ring circle{stroke-dashoffset:0;transition:stroke-dashoffset 1.35s linear}.hold-help{font-size:11px;color:#a28e88;margin:0}.intro-view.is-bloomed .hold-wrap{opacity:0;transform:translateY(6px);pointer-events:none;height:0;margin:0;overflow:hidden}
+.intro-reveal{opacity:0;transform:translateY(16px);max-height:0;overflow:hidden;pointer-events:none;transition:opacity 1.3s ease,transform 1.3s var(--smooth)}.intro-view.is-bloomed .intro-reveal{max-height:240px;opacity:1;transform:translateY(0);pointer-events:auto;transition-delay:1.5s}.intro-reveal h2{font:italic 400 clamp(24px,4.5vw,38px)/1.5 'Lora',Georgia,serif;color:#95675f;margin:18px 0 3px}.intro-reveal p{color:var(--muted);font-size:12px;margin:0 auto 21px}.primary-btn,.secondary-btn{border-radius:999px;padding:13px 27px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:13px;font-weight:600;transition:transform .35s var(--smooth),background .35s ease,box-shadow .35s ease}.primary-btn{background:#cfa098;color:#fffdfb;border:1px solid #cfa098;box-shadow:0 12px 28px rgba(168,111,99,.13)}.primary-btn:hover{background:#bd8b83;transform:translateY(-2px);box-shadow:0 15px 32px rgba(168,111,99,.19)}.secondary-btn{background:transparent;border:1px solid #d7b7af;color:#926f69}.secondary-btn:hover{background:rgba(243,214,208,.25)}
+/* Class diary */
+.home-view{padding:58px clamp(16px,3vw,45px) 100px}.diary-header{position:relative;z-index:6;max-width:1170px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:15px}.diary-brand{font-family:'Lora',Georgia,serif;font-size:18px;letter-spacing:-.04em}.diary-date{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.home-stage{position:relative;z-index:2;max-width:1210px;min-height:690px;margin:10px auto 20px;display:flex;justify-content:center;align-items:center;isolation:isolate}.home-stage::before{content:'';position:absolute;left:25%;right:25%;top:23%;bottom:17%;border-radius:50%;background:radial-gradient(ellipse,rgba(255,249,245,.95) 35%,rgba(255,249,245,.72) 68%,transparent 100%);z-index:1;pointer-events:none}.hero-copy{z-index:4;position:relative;text-align:center;max-width:550px;padding:48px 8px 25px}.hero-copy h1{font:400 clamp(42px,5.5vw,67px)/1.23 'Lora',Georgia,serif;letter-spacing:-.07em;margin:20px 0 13px;color:#695550}.hero-copy h1 em{font-weight:400;color:#b5867d}.hero-copy .lead{font:italic 400 clamp(16px,1.65vw,19px)/1.9 'Lora',Georgia,serif;color:#8f7871;max-width:475px;margin:0 auto 25px}.hero-copy .tiny-note{font-size:12px;color:#aa928b;margin-top:19px}.hero-photos{position:absolute;inset:0;z-index:3;pointer-events:none}.polaroid{position:relative;display:block;width:100%;padding:9px 9px 23px;border:1px solid #f0e8df;border-radius:3px;background:#fffdfa;box-shadow:0 13px 35px rgba(99,74,65,.17);cursor:zoom-in;transition:box-shadow .5s var(--smooth),filter .5s ease;appearance:none;text-align:left}.polaroid img{display:block;width:100%;aspect-ratio:1.26/1;object-fit:cover;background:#f1e4dc}.polaroid:hover{box-shadow:0 18px 42px rgba(99,74,65,.23);filter:saturate(1.04)}.polaroid:focus-visible{outline-offset:5px}.hero-polaroid{position:absolute;left:var(--x);top:var(--y);width:clamp(138px,16vw,203px);pointer-events:auto;transform:rotate(var(--angle));animation:photoDrift var(--drift,12s) ease-in-out infinite alternate;animation-delay:var(--delay,0s)}@keyframes photoDrift{0%{transform:translate3d(0,3px,0) rotate(var(--angle))}100%{transform:translate3d(0,-11px,0) rotate(calc(var(--angle) + 1deg))}}.hero-polaroid:focus,.hero-polaroid:hover{z-index:5;animation-play-state:paused;transform:translateY(-6px) rotate(var(--angle))}.photo-reel{display:none}
+.album-section{position:relative;z-index:2;max-width:1090px;margin:0 auto;padding:56px 0 16px;text-align:center}.album-section h2{font:400 clamp(28px,3.5vw,41px)/1.5 'Lora',Georgia,serif;letter-spacing:-.05em;margin:7px 0 8px}.album-section .album-note{font:italic 400 15px/1.9 'Lora',Georgia,serif;color:var(--muted);margin:0 auto 35px;max-width:520px}.album-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 22px;align-items:start}.album-grid .polaroid:nth-child(4n+1){transform:rotate(-3deg)}.album-grid .polaroid:nth-child(4n+2){transform:rotate(2.5deg)}.album-grid .polaroid:nth-child(4n+3){transform:rotate(-1.5deg)}.album-grid .polaroid:nth-child(4n+4){transform:rotate(3deg)}.album-grid .polaroid:hover{transform:translateY(-7px) rotate(0)}.album-footer{margin:57px 0 0;font:italic 400 19px 'Lora',Georgia,serif;color:#a28a83}
+/* Code search dialog */
+.modal-backdrop{position:fixed;z-index:70;inset:0;background:rgba(71,55,52,.35);backdrop-filter:blur(7px);display:grid;place-items:center;padding:18px;animation:veilEnter .4s ease both}@keyframes veilEnter{from{opacity:0}to{opacity:1}}.search-paper{position:relative;width:min(100%,470px);border:1px solid #e9d9d0;border-radius:12px;padding:45px clamp(23px,5vw,46px) 37px;text-align:center;background:linear-gradient(150deg,#fffefb,#fff5f1);box-shadow:0 24px 80px rgba(78,54,49,.24);animation:letterRise .8s var(--smooth) both}.search-paper .decoration-flower{font-size:26px;color:#be9790;margin-bottom:5px}.search-paper h2{font:400 31px/1.4 'Lora',Georgia,serif;letter-spacing:-.05em;margin:14px 0 11px}.search-paper p{font-size:13px;color:var(--muted);margin:0 0 24px}.code-input{display:block;width:100%;border:1px solid #e4cdc7;border-radius:7px;background:white;padding:15px;text-align:center;font-size:21px;letter-spacing:.22em;color:var(--ink);margin-bottom:13px;outline:none}.code-input:focus{border-color:#b98c84;outline:2px solid #e8c4bc}.code-error{font-size:12px;color:#a75c54;margin:8px 0 0!important}.modal-close,.lightbox-close{position:absolute;right:14px;top:13px;border:0;background:transparent;color:#927d75;font-size:28px;line-height:1;width:34px;height:34px}
+/* Personal flower and letter */
+.result-view{padding:78px clamp(18px,4vw,45px) 60px;background:radial-gradient(ellipse at 50% 13%,rgba(243,214,208,.38),transparent 47%),var(--paper)}.result-return{position:relative;z-index:3;border:0;background:none;color:#997d77;font-size:13px;padding:8px 0;display:flex;align-items:center;gap:5px}.result-return:hover{text-decoration:underline}.result-content{max-width:960px;margin:0 auto;text-align:center;padding:20px 0 10px}.result-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#a98b82}.result-content h2{font:400 clamp(32px,4.5vw,53px)/1.3 'Lora',Georgia,serif;letter-spacing:-.06em;margin:12px auto 25px}.flower-portrait{max-width:340px;margin:0 auto;position:relative;display:grid;place-items:center}.flower-portrait::before{content:'';position:absolute;inset:8%;background:radial-gradient(circle,rgba(237,199,191,.45),transparent 68%);filter:blur(14px);z-index:0}.flower-portrait img{position:relative;z-index:1;display:block;width:clamp(190px,28vw,290px);height:clamp(190px,28vw,290px);border-radius:50% 50% 47% 47%;object-fit:cover;box-shadow:0 18px 46px rgba(111,79,70,.14);border:8px solid #fffdf8;opacity:0;transform:scale(.88);animation:flowerReveal 1.1s var(--smooth) .15s forwards}@keyframes flowerReveal{to{opacity:1;transform:scale(1)}}.flower-label{font:italic 400 23px 'Lora',Georgia,serif;margin:15px auto 3px;color:#94766e}.flower-sub{font-size:12px;color:#aa9289;margin:0 0 27px}.letter-container{max-width:770px;margin:30px auto 0;text-align:left}.envelope-prompt{margin:20px auto;display:flex;flex-direction:column;align-items:center;gap:13px}.envelope{display:grid;place-items:center;position:relative;width:180px;height:112px;margin:12px auto 0;border-radius:6px;background:#f5dcd1;border:1px solid #e6bfb5;box-shadow:0 12px 28px rgba(144,95,85,.14);overflow:hidden;transition:transform .8s var(--smooth)}.envelope::before{content:'';position:absolute;inset:0;clip-path:polygon(0 0,50% 58%,100% 0);background:#f7e6de;border-top:1px solid #e2baad}.envelope::after{content:'';position:absolute;inset:0;clip-path:polygon(0 100%,50% 42%,100% 100%);background:#efcec3}.envelope .seal{font-size:26px;position:relative;z-index:2;color:#b98176}.open-letter:hover .envelope{transform:translateY(-4px)}.open-letter{background:transparent;border:0;color:var(--ink);font-weight:600;padding:0 10px 14px}.open-letter span{display:block;margin-top:14px;font-size:13px}
+.letter-sheet{position:relative;max-width:790px;margin:5px auto 20px;border:1px solid #e9ded2;border-radius:4px;padding:clamp(27px,5vw,58px);background:linear-gradient(180deg,#fffefa,#fff7ef);box-shadow:0 22px 68px rgba(96,65,57,.14),0 2px 8px rgba(96,65,57,.05);overflow:hidden;animation:letterRise 1.15s var(--smooth) both}@keyframes letterRise{from{opacity:0;transform:translateY(28px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}.letter-sheet::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(to bottom,transparent 0px,transparent 33px,rgba(210,176,160,.075) 34px);pointer-events:none}.letter-sheet::after{content:'✿';position:absolute;top:25px;right:31px;color:#dcbcb3;font-size:36px;opacity:.65}.letter-heading,.letter-address,.letter-wish,.letter-signoff,.letter-reason{position:relative;z-index:1}.letter-heading{font-size:11px;color:#a78c83;letter-spacing:.17em;text-transform:uppercase;margin:0 0 24px}.letter-address{font:italic 400 clamp(18px,2.7vw,22px) 'Lora',Georgia,serif;margin:0 0 21px;color:#725c55}.letter-wish{font:italic 400 clamp(17px,2.55vw,20px)/2 'Lora',Georgia,serif;min-height:130px;white-space:pre-wrap;color:#624d48;margin:0 0 24px}.letter-signoff{text-align:right;margin:25px 0 18px;color:#946f67;opacity:0;transform:translateY(6px);transition:opacity .85s ease,transform .85s var(--smooth)}.letter-signoff.show{opacity:1;transform:none}.letter-signoff small{font-size:12px;display:block}.letter-signoff strong{font:600 clamp(27px,4vw,35px) 'Dancing Script','Segoe Script',cursive;display:block;margin-top:1px;color:#a76e67}.letter-reason{border-top:1px solid #ead8cb;padding-top:20px;margin-top:24px;opacity:0;transform:translateY(12px);transition:opacity .95s ease,transform .95s var(--smooth)}.letter-reason.show{opacity:1;transform:none}.letter-reason h4{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#a47f73;margin:0 0 9px}.letter-reason p{font-size:13px;line-height:1.9;color:#806d64;margin:0}
+/* Photo modal */
+.lightbox{position:fixed;z-index:90;inset:0;background:rgba(51,44,41,.86);display:grid;place-items:center;padding:55px clamp(16px,5vw,60px) 32px;backdrop-filter:blur(6px);animation:veilEnter .3s ease}.lightbox-content{display:flex;align-items:center;justify-content:center;gap:18px;width:100%;max-height:100%;position:relative}.lightbox-frame{background:#fffefa;padding:clamp(8px,2vw,15px) clamp(8px,2vw,15px) 30px;box-shadow:0 20px 60px rgba(0,0,0,.32);max-width:min(85vw,900px);max-height:80svh;display:grid;place-items:center;min-width:0;animation:letterRise .55s var(--smooth) both}.lightbox-frame img{max-width:100%;max-height:calc(80svh - 46px);object-fit:contain;display:block}.lightbox-close{top:13px;right:clamp(14px,3vw,45px);color:white;z-index:2}.lightbox-arrow{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.24);color:white;border-radius:50%;width:38px;height:38px;min-width:38px;font-size:22px;display:grid;place-items:center}.lightbox-arrow:hover{background:rgba(255,255,255,.25)}
+.footer{position:relative;z-index:3;text-align:center;color:#ad9188;font-size:11px;letter-spacing:.1em;padding:28px 12px 35px}
+@media(max-width:1080px){.home-stage{min-height:650px}.hero-polaroid{width:clamp(130px,17vw,175px)}}
+@media(max-width:780px){.home-view{padding:65px 17px 62px}.diary-header{padding:0 3px}.diary-brand{font-size:16px}.diary-date{font-size:10px}.home-stage{min-height:0;margin-top:8px;display:flex;flex-direction:column}.home-stage::before{display:none}.hero-copy{order:0;padding:65px 8px 14px;max-width:540px}.hero-copy h1{font-size:clamp(39px,8vw,55px)}.hero-copy .lead{font-size:17px;margin-bottom:23px}.hero-photos{position:relative;order:1;inset:auto;width:100%;max-width:540px;margin:14px auto 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;pointer-events:auto}.hero-polaroid{position:relative;left:auto;top:auto;width:100%;min-width:0;animation:none!important;transform:rotate(var(--angle))}.hero-polaroid:nth-child(n+4){display:none}.polaroid{padding:6px 6px 14px}.album-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.album-section{padding-top:68px}.album-section .album-note{padding:0 15px}}
+@media(max-width:520px){.intro-view{padding:61px 19px 24px}.intro-heading{font-size:31px}.intro-sub{font-size:12px}.flower-land{height:250px;margin-top:24px}.tulip{width:19vw;max-width:77px}.hold-wrap{margin-top:11px}.corner-music{top:12px;right:12px;padding:8px 10px;font-size:11px}.hero-copy{padding-top:73px}.home-stage{margin-bottom:0}.hero-copy h1{font-size:41px}.hero-copy .lead{font-size:15px}.album-section{padding-top:74px}.album-section h2{font-size:30px}.album-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 15px}.diary-date{display:none}.result-view{padding:65px 18px 40px}.result-content h2{font-size:32px}.flower-portrait img{width:205px;height:205px}.letter-sheet{padding:29px 24px}.letter-wish{font-size:17px;line-height:1.95}.lightbox{padding:60px 8px 24px}.lightbox-content{gap:4px}.lightbox-frame{max-width:calc(100vw - 103px);padding:7px 7px 19px}.lightbox-arrow{width:34px;min-width:34px;height:34px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.tulip{opacity:1;transform:none}.tulip .blossom{opacity:1;transform:none}.letter-signoff,.letter-reason{transform:none}}
+
+/* The selected nine photographs lead the diary without changing its quiet style. */
+.hero-polaroid.featured-cover{width:clamp(190px,20vw,252px);z-index:4}
+.hero-polaroid.featured-cover img{aspect-ratio:1.46/1}
+.album-featured{grid-template-columns:repeat(3,minmax(0,1fr));gap:27px 24px}
+.album-featured .polaroid:first-child{grid-column:span 2;transform:rotate(-1.1deg);padding:12px 12px 30px}
+.album-featured .polaroid:first-child img{aspect-ratio:1.8/1}
+.album-featured .polaroid:first-child:hover{transform:translateY(-7px) rotate(0)}
+.album-extra{margin:44px auto 0;border-top:1px solid rgba(173,145,136,.24);padding-top:25px}
+.album-more-toggle{display:table;margin:0 auto;padding:13px 20px;font-size:13px;color:#876e65;cursor:pointer;list-style:none;border:1px solid #e9d5cf;border-radius:999px;background:rgba(255,251,248,.82);transition:background .3s ease,transform .3s ease}
+.album-more-toggle::-webkit-details-marker{display:none}
+.album-more-toggle:hover{background:#fff;transform:translateY(-2px)}
+.album-more-toggle:focus-visible{outline:2px solid #ad817a;outline-offset:3px}
+.album-more-toggle span{display:inline-block;margin-left:7px;transition:transform .3s ease}
+.album-extra[open] .album-more-toggle span{transform:rotate(45deg)}
+.album-secondary{margin-top:31px;grid-template-columns:repeat(4,minmax(0,1fr));gap:23px 20px}
+@media(max-width:1080px){.hero-polaroid.featured-cover{width:clamp(177px,22vw,226px)}}
+@media(max-width:780px){
+ .hero-photos{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;max-width:540px}
+ .hero-polaroid.featured-cover{width:100%;grid-column:span 2;transform:rotate(-1.2deg)}
+ .hero-polaroid.featured-cover img{aspect-ratio:1.8/1}
+ .hero-polaroid:nth-child(n+4){display:none}
+ .album-featured{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 14px}
+ .album-secondary{grid-template-columns:repeat(3,minmax(0,1fr));gap:17px 14px}
+}
+@media(max-width:520px){
+ .hero-photos{gap:15px;margin-top:26px}
+ .hero-polaroid.featured-cover img{aspect-ratio:1.75/1}
+ .album-featured{grid-template-columns:repeat(2,minmax(0,1fr));gap:21px 16px}
+ .album-featured .polaroid:first-child{grid-column:span 2;padding:9px 9px 23px}
+ .album-featured .polaroid:first-child img{aspect-ratio:1.75/1}
+ .album-secondary{grid-template-columns:repeat(2,minmax(0,1fr));gap:21px 15px}
+ .album-extra{margin-top:37px}
+}
+
+
+/* Added intro: isolated Tiny animation before the original website. */
+#a1-tiny-shell{position:fixed;inset:0;z-index:9999;background:#000;transition:opacity 2.2s cubic-bezier(.22,1,.36,1),visibility 2.2s ease;opacity:1;visibility:visible}
+#a1-tiny-shell.a1-leaving{opacity:0;visibility:hidden;pointer-events:none}
+#a1-tiny-frame{display:block;width:100%;height:100%;border:0;background:#000}
+#a1-skip-intro{position:absolute;top:max(13px,env(safe-area-inset-top));right:max(16px,env(safe-area-inset-right));z-index:10;border:1px solid rgba(255,255,255,.35);border-radius:100px;background:rgba(12,17,26,.7);color:white;padding:9px 15px;font:500 12px/1.3 Arial,sans-serif;cursor:pointer}
+#a1-tiny-shell[hidden]{display:none!important}
+
+</style>
+</head>
+<body class="paper-bg">
+<!-- Mở đầu Tiny được điều chỉnh lời thoại; toàn bộ website A1 bên dưới giữ nguyên. -->
+<div id="a1-tiny-shell" role="region" aria-label="Lời chào mở đầu của Trai nhà A1">
+  <iframe id="a1-tiny-frame" title="Lời chào của Trai nhà A1" allow="autoplay" referrerpolicy="no-referrer"></iframe>
+  <button id="a1-skip-intro" type="button">Bỏ qua lời chào →</button>
+</div>
+
+<button id="music-toggle" class="corner-music" type="button" aria-label="Bật nhạc nền" aria-pressed="false"><span id="music-symbol" class="music-symbol">🔇</span><span id="music-label">Bật nhạc</span></button>
+<audio id="bg-music" preload="none" loop src="assets/co-hen-voi-thanh-xuan-piano-ancoong.mp3"></audio>
+
+<section id="intro-view" class="view intro-view" aria-label="Màn mở đầu 20 tháng 10">
+  <div id="intro-decor" class="decor-layer" aria-hidden="true"></div>
+  <div class="intro-inner">
+    <div class="eyebrow intro-eyebrow">MỘT MÓN QUÀ NHỎ • 20/10</div>
+    <h1 class="intro-heading">Gửi những cô gái<br>của lớp 12A1</h1>
+    <p class="intro-sub">Có một mùa thanh xuân chúng ta đã cùng nhau đi qua.</p>
+    <div class="flower-land" aria-hidden="true">
+      <div class="tulip" style="--bloom-delay:0.00s"><svg viewBox="0 0 100 240" aria-hidden="true"><path d="M52 228 Q 48 171 51 80" stroke="#879f80" stroke-width="4.2" stroke-linecap="round" fill="none" /><path d="M52 180 Q 17 178 10 137 Q 43 141 52 180" fill="#a6bda2" opacity=".88" /><path d="M51 167 Q 85 142 90 121 Q 53 133 51 167" fill="#90af8b" opacity=".86" /><g class="blossom"><path d="M49 92 C28 88 19 72 26 43 C38 49 46 59 51 68 C59 50 66 42 77 40 C79 70 70 87 52 92Z" fill="#dba5a5"/><path d="M51 94 C28 80 28 57 32 31 C45 41 48 50 51 58 C57 42 65 29 72 26 C78 59 76 81 51 94Z" fill="#edc2ba"/><path d="M51 91 C38 74 41 51 50 27 C62 53 66 75 51 91Z" fill="#f4d8cc"/></g></svg></div>
+<div class="tulip" style="--bloom-delay:0.19s"><svg viewBox="0 0 100 240" aria-hidden="true"><path d="M52 228 Q 48 171 51 80" stroke="#879f80" stroke-width="4.2" stroke-linecap="round" fill="none" /><path d="M52 180 Q 17 178 10 137 Q 43 141 52 180" fill="#a6bda2" opacity=".88" /><path d="M51 167 Q 85 142 90 121 Q 53 133 51 167" fill="#90af8b" opacity=".86" /><g class="blossom"><path d="M49 92 C28 88 19 72 26 43 C38 49 46 59 51 68 C59 50 66 42 77 40 C79 70 70 87 52 92Z" fill="#dd9a9f"/><path d="M51 94 C28 80 28 57 32 31 C45 41 48 50 51 58 C57 42 65 29 72 26 C78 59 76 81 51 94Z" fill="#edbfc0"/><path d="M51 91 C38 74 41 51 50 27 C62 53 66 75 51 91Z" fill="#f7d5cf"/></g></svg></div>
+<div class="tulip" style="--bloom-delay:0.38s"><svg viewBox="0 0 100 240" aria-hidden="true"><path d="M52 228 Q 48 171 51 80" stroke="#879f80" stroke-width="4.2" stroke-linecap="round" fill="none" /><path d="M52 180 Q 17 178 10 137 Q 43 141 52 180" fill="#a6bda2" opacity=".88" /><path d="M51 167 Q 85 142 90 121 Q 53 133 51 167" fill="#90af8b" opacity=".86" /><g class="blossom"><path d="M49 92 C28 88 19 72 26 43 C38 49 46 59 51 68 C59 50 66 42 77 40 C79 70 70 87 52 92Z" fill="#c78888"/><path d="M51 94 C28 80 28 57 32 31 C45 41 48 50 51 58 C57 42 65 29 72 26 C78 59 76 81 51 94Z" fill="#dda3a0"/><path d="M51 91 C38 74 41 51 50 27 C62 53 66 75 51 91Z" fill="#eac6bc"/></g></svg></div>
+<div class="tulip" style="--bloom-delay:0.57s"><svg viewBox="0 0 100 240" aria-hidden="true"><path d="M52 228 Q 48 171 51 80" stroke="#879f80" stroke-width="4.2" stroke-linecap="round" fill="none" /><path d="M52 180 Q 17 178 10 137 Q 43 141 52 180" fill="#a6bda2" opacity=".88" /><path d="M51 167 Q 85 142 90 121 Q 53 133 51 167" fill="#90af8b" opacity=".86" /><g class="blossom"><path d="M49 92 C28 88 19 72 26 43 C38 49 46 59 51 68 C59 50 66 42 77 40 C79 70 70 87 52 92Z" fill="#d3a0ae"/><path d="M51 94 C28 80 28 57 32 31 C45 41 48 50 51 58 C57 42 65 29 72 26 C78 59 76 81 51 94Z" fill="#e6b5bc"/><path d="M51 91 C38 74 41 51 50 27 C62 53 66 75 51 91Z" fill="#efccd0"/></g></svg></div>
+<div class="tulip" style="--bloom-delay:0.76s"><svg viewBox="0 0 100 240" aria-hidden="true"><path d="M52 228 Q 48 171 51 80" stroke="#879f80" stroke-width="4.2" stroke-linecap="round" fill="none" /><path d="M52 180 Q 17 178 10 137 Q 43 141 52 180" fill="#a6bda2" opacity=".88" /><path d="M51 167 Q 85 142 90 121 Q 53 133 51 167" fill="#90af8b" opacity=".86" /><g class="blossom"><path d="M49 92 C28 88 19 72 26 43 C38 49 46 59 51 68 C59 50 66 42 77 40 C79 70 70 87 52 92Z" fill="#d6a18f"/><path d="M51 94 C28 80 28 57 32 31 C45 41 48 50 51 58 C57 42 65 29 72 26 C78 59 76 81 51 94Z" fill="#e7bdae"/><path d="M51 91 C38 74 41 51 50 27 C62 53 66 75 51 91Z" fill="#f3d9cc"/></g></svg></div>
+    </div>
+    <div class="hold-wrap" id="hold-wrap">
+      <button type="button" id="hold-button" class="hold-button" aria-label="Ấn giữ để mở món quà">
+        <svg class="hold-ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="42"></circle></svg>
+        <span>Ấn giữ<br>để mở quà</span>
+      </button>
+      <p class="hold-help">Chạm và giữ trong giây lát</p>
+    </div>
+    <div class="intro-reveal" id="intro-reveal" aria-live="polite">
+      <h2>Mong mỗi ngày của bạn<br>đều dịu dàng như một đóa hoa.</h2>
+      <p>Và những kỷ niệm đẹp sẽ còn ở lại, thật lâu.</p>
+      <button type="button" id="enter-diary" class="primary-btn">Bước vào trang nhật ký <span aria-hidden="true">→</span></button>
+    </div>
+  </div>
+</section>
+
+<main id="home-view" class="view home-view" hidden>
+  <div id="home-decor" class="decor-layer" aria-hidden="true"></div>
+  <header class="diary-header"><div class="diary-brand">A1 <span aria-hidden="true">✿</span> Nhật ký thanh xuân</div><div class="diary-date">Lưu giữ những ngày rất đẹp • 20.10</div></header>
+  <section class="home-stage" aria-labelledby="home-title">
+    <div class="hero-copy page-fade">
+      <span class="eyebrow">MỘT MÙA THƯƠNG NHỚ</span>
+      <h1 id="home-title">Những ngày<br><em>thanh xuân</em> dịu dàng</h1>
+      <div class="soft-line"></div>
+      <p class="lead">Giữa bao nhiêu khoảnh khắc bình thường, thật vui vì chúng ta đã có nhau.</p>
+      <button id="open-gift" class="primary-btn" type="button">Mở phần quà bí ẩn <span aria-hidden="true">↗</span></button>
+      <p class="tiny-note">Một bông hoa và một lời nhắn, dành riêng cho bạn.</p>
+    </div>
+    <div class="hero-photos" id="hero-photos" aria-label="Ảnh kỷ niệm của lớp"></div>
+  </section>
+  <section class="album-section" aria-labelledby="album-heading">
+    <p class="eyebrow">THANH XUÂN LỚP MÌNH</p>
+    <h2 id="album-heading">Có những ngày nhớ mãi</h2>
+    <p class="album-note">Những bức ảnh không cần nói gì cả — vì câu chuyện đều đã ở trong đó.</p>
+    <div class="album-grid album-featured" id="album-grid" aria-label="Những tấm ảnh kỷ niệm chính"></div>
+    <details class="album-extra" id="more-memories">
+      <summary class="album-more-toggle">Mở thêm những trang ảnh khác <span aria-hidden="true">↗</span></summary>
+      <div class="album-grid album-secondary" id="extra-album-grid" aria-label="Những tấm ảnh kỷ niệm khác"></div>
+    </details>
+    <p class="album-footer">Gửi cho chúng mình, của những năm tháng ấy. ♡</p>
+  </section>
+  <footer class="footer">TRAI NHÀ A1 · GỬI NHỮNG CÔ GÁI CỦA LỚP MÌNH · 20/10</footer>
+</main>
+
+<section id="result-view" class="view result-view" hidden aria-label="Bông hoa và lời chúc">
+  <div id="result-decor" class="decor-layer" aria-hidden="true"></div>
+  <div class="result-content page-fade">
+    <button id="back-home" class="result-return" type="button">← Trở về trang nhật ký</button>
+    <div class="result-eyebrow">MỘT BÔNG HOA DÀNH RIÊNG CHO BẠN</div>
+    <h2 id="person-name"></h2>
+    <div class="flower-portrait"><img id="flower-image" alt="Bông hoa của bạn"></div>
+    <p class="flower-label" id="flower-vietnamese"></p>
+    <p class="flower-sub" id="flower-english"></p>
+    <div class="letter-container">
+      <div class="envelope-prompt" id="envelope-prompt">
+        <button id="open-letter" class="open-letter" type="button" aria-label="Mở bức thư gửi bạn">
+          <div class="envelope" aria-hidden="true"><span class="seal">✿</span></div>
+          <span>Chạm để mở lá thư dành cho bạn</span>
+        </button>
+      </div>
+      <article id="letter-sheet" class="letter-sheet" hidden aria-label="Lá thư chúc mừng">
+        <p class="letter-heading">TRANG THƯ THỨ 20 · THÁNG MƯỜI</p>
+        <p class="letter-address">Gửi <span id="letter-name"></span>,</p>
+        <p id="letter-wish" class="letter-wish" aria-live="off"></p>
+        <div id="letter-signoff" class="letter-signoff"><small>Thương gửi,</small><strong>Trai nhà A1</strong></div>
+        <section id="letter-reason" class="letter-reason"><h4>Về bông hoa của bạn</h4><p id="letter-reason-text"></p></section>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div id="search-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="search-heading" hidden>
+  <div class="search-paper">
+    <button id="search-close" type="button" class="modal-close" aria-label="Đóng cửa sổ">×</button>
+    <div class="decoration-flower" aria-hidden="true">✿</div>
+    <div class="eyebrow">DÀNH RIÊNG CHO BẠN</div>
+    <h2 id="search-heading">Phần quà bí ẩn<br>đang chờ bạn</h2>
+    <p>Nhập mã số của bạn để mở món quà nhỏ này nhé.</p>
+    <form id="gift-form" autocomplete="off">
+      <label for="gift-code" class="eyebrow" style="display:block;margin-bottom:9px">MÃ SỐ CỦA BẠN</label>
+      <input class="code-input" id="gift-code" inputmode="numeric" placeholder="02, 03, 16, 17..." aria-describedby="code-error" maxlength="8" required>
+      <button type="submit" class="primary-btn" style="width:100%">Mở món quà <span aria-hidden="true">↗</span></button>
+      <p id="code-error" class="code-error" role="alert" hidden>Chưa tìm thấy mã này. Bạn kiểm tra lại nhé.</p>
+    </form>
+  </div>
+</div>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh lớp" hidden>
+  <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Đóng ảnh">×</button>
+  <div class="lightbox-content">
+    <button id="lightbox-prev" type="button" class="lightbox-arrow" aria-label="Ảnh trước">‹</button>
+    <div class="lightbox-frame"><img id="lightbox-image" alt="Ảnh kỷ niệm lớp phóng to"></div>
+    <button id="lightbox-next" type="button" class="lightbox-arrow" aria-label="Ảnh tiếp theo">›</button>
+  </div>
+</div>
+<script>
+const giftData = [
+
+            { 
+
+                ma_so: "02", ho_ten: "Nguyễn Gia An", ten_anh: "Lily of the Valley", ten_viet: "Hoa linh lan", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvokziZCQmyvwwB7WutxP5j_7X_kZjKbNIk-6qqrtfxg&s=10",
+
+                ly_do: "Linh lan là loài hoa có những bông hoa trắng nhỏ hình chiếc chuông, mọc thành chùm và thường được gắn với niềm vui trở lại, sự dịu dàng và hạnh phúc. Mình chọn hoa này vì mong An luôn tìm thấy niềm vui từ những điều bình dị, đồng thời mang theo những kỷ niệm trong trẻo của tuổi học trò trên chặng đường phía trước.", 
+
+                loi_chuc: "Nhân ngày 20/10, chúc An luôn vui vẻ, hạnh phúc và gặp được thật nhiều điều tốt đẹp trong cuộc sống. Mong rằng An sẽ luôn giữ được nụ cười trên môi, sự tự tin trong lòng và nhiệt huyết để theo đuổi những điều mình mong muốn. Chúc An không chỉ có một ngày 20/10 thật vui mà còn có thật nhiều ngày tháng bình yên, đáng nhớ và tràn đầy yêu thương nhé!" 
+
+            },
+
+            { 
+
+                ma_so: "03", ho_ten: "Trần Phúc Hoài An", ten_anh: "Gladiolus", ten_viet: "Hoa lay ơn", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJgpD6-5ivmqAOaI4ZzSZ6-6TZoON3Kntabh_hQsbyDdeWrgmGZ5chDyVKxzZtfRIrai5DpqGPMkcH4795hpprq6OHn8VzgJSNHyxtyqY5A&s=10",
+
+                ly_do: "Lay ơn có thân hoa mọc thẳng, các bông hoa nối tiếp nhau vươn lên cao. Đặc điểm ấy thường được liên tưởng đến sự kiên định, lòng can đảm và tinh thần không ngừng tiến về phía trước. Mình chọn lay ơn như một lời nhắc nhở rằng Hoài An hãy luôn tin vào con đường mình chọn, kể cả khi hành trình ấy có những thử thách.", 
+
+                loi_chuc: "Hello Hoài An nhé, năm nay năm cuối cấp rồi, cũng là năm cuối bọn mình được tổ chức 20/10 cho An và mọi người rồi nè. Âu là duyên số đưa chúng ta gặp được nhau, nên hãy cùng tạo thật nhiều kỉ niệm bên nhau trong khoảng thời gian cấp 3 còn lại nhé. Nhân ngày 20/10 này, trai nhà A1 chúc Hoài An thật vui vẻ, hạnh phúc và đạt được nhiều thành công cũng như là đậu nguyện vọng 1 trong tương lai nhaaa. 20/10 hạnh phúccccc!" 
+
+            },
+
+            { 
+
+                ma_so: "04", ho_ten: "Nguyễn Hoàng Thảo Quyên", ten_anh: "Bells of Ireland", ten_viet: " Hoa Chuông Ireland", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwoS7WCDGBgcCKJ_R3T9qjF_VQkvOZGMY-exYUG47SoMnI8pST2NyAyAHhCHfHhQaLkpHtjexNdF_ktTMXZyRKXdzb4367bDWVg-STxTxK&s=10",
+
+                ly_do: "Hoa chuông Ireland nổi bật với những đài hoa xanh hình chuông mọc dọc thân cao. Màu xanh tươi và dáng hoa độc đáo khiến nó thường được dùng để biểu đạt may mắn và những lời chúc tốt lành. Mình chọn loài hoa này để chúc Thảo Quyên gặp được nhiều cơ hội phù hợp và có đủ tự tin để nắm lấy chúng.", 
+
+                loi_chuc: "Hello Quyên, nhân ngày 20/10 cuối cùng này, mình có đôi lời gửi đến Quyên ngeng. Chúc Quyên sẽ đạt được bước tiến và thành công trong học tập, xinh đẹp hơn, có thật nhiều sức khỏe, tiền vào như nước nhé. Đặc biệt là sẽ thành công ẵm trọn nguyện vọng 1 về tay nha. Hãy cười và nói chuyện nhiều hơn nha Quyên vì những lúc đó Quyên rất xinh gái đó, mình mong Quyên sẽ thật tận hưởng khoảng thời gian ngắn ngủi còn lại của thanh xuân cấp 3 này cùng trai nhà A1 chúng mình nhé. Một lần nữa, chúc Quyên có một ngày 20/10 vui vẻee (Có nhu cầu nạp fifai liên hệ mình nha)"
+
+            },
+
+            { 
+
+                ma_so: "05", ho_ten: "Lê Minh Thư", ten_anh: "Cosmos", ten_viet: "Hoa sao nhái", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfss7lkjN3lfhNc-KqWNhLYUkKrLer_Ts9-y-5tu8MMxS5tLHwzJpnMyYmzJlP9op4uBVZvyGstaaaQqF39vf5l1mW8XAa5MKKdyTW8lfh&s=10",
+
+                ly_do: "Sao nhái có những cánh hoa mảnh, xòe đều quanh nhụy vàng, tạo cảm giác tự nhiên và phóng khoáng. Trong ngôn ngữ hoa hiện đại, loài hoa này thường gắn với sự hài hòa, niềm vui và nét đẹp giản dị. Mình chọn sao nhái để nhắn Minh Thư rằng hành trình trưởng thành không chỉ có học tập và mục tiêu, mà còn cần những khoảng thời gian để tận hưởng cuộc sống.", 
+
+                loi_chuc: "Ô chào Thư nhá, thành viên tổ 2 đáng yêu của tôi. Ngay lúc đang đọc những dòng này chắc Thư đang cười tươi lắm, đúng rồi cười lên đi Thư vì Thư rất đẹp. Nhân ngày 20/10 cuối cùng mà trai nhà A1 được tổ chức cho Thư và các bạn, thì mình xin gửi lời chúc chân thành nhất cho Thư thật hạnh phúc, tự tin, may mắn, học giỏi và quan trọng nhất là đậu nguyện vọng 1 nhé. Chúc Thư có một ngày 20/10 vui vẻ!" 
+
+            },
+
+            { 
+
+                ma_so: "06", ho_ten: "Tạ Nguyễn Minh Anh", ten_anh: "Chrysanthemum", ten_viet: "Hoa cúc", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2XX-GaUO2XKv0oMzSG97n5rU5k_ld4ah5zLyDdb6NnA&s=10",
+
+                ly_do: "Hoa cúc có nhiều cánh nhỏ xếp quanh nhụy, tạo nên vẻ đẹp giản dị nhưng đầy đặn. Ở nhiều nền văn hóa, hoa cúc gắn với sự bền bỉ, niềm vui và những tình cảm lâu dài. Mình chọn hoa cúc để gửi gắm mong muốn rằng Minh Anh sẽ luôn có những mối quan hệ chân thành, những niềm vui bình dị và nhiều điều tốt đẹp theo thời gian.", 
+
+                loi_chuc: " Minh Anh ơiii, vậy là hành trình cấp 3 này đã đi đến những chặng cuối rồi, và có lẽ đây cũng là lần cuối trai A1 tụi mình được tổ chức 20/10 cho các bạn nữ A1. Mình muốn gửi đến Minh Anh những lời chúc tốt đẹp nhất, chúc cho Minh Anh lúc nào cũng vui vẻ, xinh tươi, và luôn giữ được năng lượng tích cực như những gì Minh Anh sẵn có. Chúc cho Minh Anh sẽ có một năm học đáng nhớ và cuối cùng đậu NV1 nháaa"
+
+            },
+
+            { 
+
+                ma_so: "08", ho_ten: "Nguyễn Thị Ngọc Ánh", ten_anh: "Poppy", ten_viet: "Hoa anh túc", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkTW_etUfUk00An3jA_r9JaZougo9NKzKY06qCwb32w&s=10",
+
+                ly_do: "Hoa anh túc có những cánh mỏng, nhẹ và thường lay động theo gió, tạo cảm giác mong manh nhưng vẫn nổi bật. Ý nghĩa của loài hoa này thay đổi theo màu sắc và văn hóa; nó có thể gợi đến sự tưởng nhớ hoặc bình yên. Mình chọn hoa anh túc như một lời nhắc nhở rằng Ngọc Ánh hãy trân trọng những khoảnh khắc đẹp, giữ cho mình sự bình yên và đừng quên những kỷ niệm đáng quý.", 
+
+                loi_chuc: "Chúc Ánh lúc nào cũng ngập tràn sức khỏe, nạp đầy năng lượng để ít bị ốm hơn nha. Mong Ánh có thật nhiều kỉ niệm đẹp với lớp, với tổ và luôn vững vàng, tự tin bước trên con đường mình đã chọn. Năm nay là năm cuối cấp rồi, chúng ta mặc dù không muốn nhưng sắp phải chia xa thôi. Buồn thì buồn nhưng cũng thật vui vì ta đã gặp được nhau, cùng tạo cho nhau những kí ức thật đẹp. Nên trai nhà A1 mong rằng Ánh vẫn sẽ tiếp tục cùng đồng hành với chúng mình để tận hưởng nốt khoảng thời gian ngắn ngủi còn lại của cấp 3 này nhé. Một lần nữa, 20/10 thật vui vẻ nhé!" 
+
+            },
+
+            { 
+
+                ma_so: "11", ho_ten: "Vũ Thị Băng Châu", ten_anh: "Rose", ten_viet: "Hoa hồng", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5OczqPkmsBBoFe2UyumHaIbZtaFLb_m_5xX5vVeJYrQ&s=10",
+
+                ly_do: "Hoa hồng có nhiều lớp cánh xếp quanh tâm, vừa mềm mại vừa nổi bật. Tùy màu sắc, hoa hồng có thể biểu đạt tình yêu, lòng biết ơn, sự trân trọng hoặc tình bạn. Mình chọn hoa hồng vì đây là loài hoa nhắc chúng ta rằng mọi người đều xứng đáng được yêu thương và trân trọng, đồng thời có quyền can đảm theo đuổi điều mình tin tưởng.", 
+
+                loi_chuc: "Mong muốn cuộc đời gửi đến bạn những điều tốt đẹp, hạnh phúc. Chúc Châu ngày 20/10 nói riêng và những ngày tháng sau này nói chung luôn xinh đẹp, hạnh phúc, vui vẻ, đón nhận được những điều tốt lành, đạt được những thành tựu trong hàng trang học tập. Hãy sống là chính mình, làm những điều mình thích, hãy tận hưởng những điều ngọt ngào trên khoảng thời gian cấp 3 còn lại nhé. Một lần nữa, trai nhà A1 xin chúc Châu có một ngày 20/10 vui vẻ." 
+
+            },
+
+            { 
+
+                ma_so: "12", ho_ten: "Lưu Nguyễn Minh Châu", ten_anh: "Larkspur", ten_viet: "Hoa phi yến", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5KXiOAdoW7u3xWMuZr5G-PA5XfTTsT_0bxDk-9yXRIQ&s=10",
+
+                ly_do: "Phi yến thường mọc thành những chùm hoa cao, với các sắc xanh, tím hoặc hồng nổi bật. Loài hoa này thường được liên hệ với sự tích cực, lòng hào phóng và tinh thần vui tươi. Mình chọn phi yến vì muốn gửi đến Minh Châu lời chúc về một tuổi trẻ có nhiều trải nghiệm mới, nhiều người bạn tốt và những ngày tháng đầy năng lượng.", 
+
+                loi_chuc: "Vậy là đã đến năm cuối rồi, chúng ta đã đi cùng nhau đến chặng đường cuối của cấp 3. Mình muốn gửi đến Châu những lời chúc chân thành nhất, không chỉ 20/10, mà ngày nào đối với Châu cũng là niềm vui. Cảm ơn vì đã là lớp trưởng, đã luôn dẫn dắt lớp đi lên để có được 12A1 như hôm nay, cảm ơn vì đã luôn lắng nghe những tâm tư chia sẻ của chúng mình, mang lại sự an tâm cho tụi mình trong những năm tháng cấp 3 này. Thanh xuân trôi qua nhanh lắm, mong rằng sau này khi nhìn lại, Châu sẽ luôn nhớ về những ngày tháng này với thật nhiều nụ cười. Cuối cùng, mình muốn nói rằng, hãy luôn tin vào bản thân, hãy luôn tự tin bước tiếp, và chúc Châu theo đuổi con đường của bản thân thuận lợi nhé"
+
+            },
+
+            { 
+
+                ma_so: "13", ho_ten: "Nguyễn Tâm Đan", ten_anh: "Narcissus", ten_viet: "Hoa thủy tiên", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ6ACzba0OnIcBucYTdcne7XaF-pUEFyRLNfhj0TYByw&s=10",
+
+                ly_do: "Hoa thủy tiên có phần nhụy hình chiếc kèn nổi bật ở giữa những cánh hoa, thường nở vào thời điểm báo hiệu mùa xuân ở nhiều nơi. Vì vậy, hoa thường được xem là biểu tượng của sự tái sinh, đổi mới và khởi đầu. Mình chọn hoa thủy tiên để chúc Tâm Đan luôn sẵn sàng đón nhận những cơ hội mới và không ngại bắt đầu lại khi cần thiết.", 
+
+                loi_chuc: "Chúc Đan luôn xinh đẹp\nChúc Đan luôn dễ thương\nChúc Đan luôn hạnh phúc\nChúc Đan luôn vui vẻ\nChúc Đan luôn may mắn\nChúc Đan luôn đạt được thành công trong bước đường học tập\nChúc Đan luôn giỏi giang\nChúc Đan luôn đón nhận được điều tốt đẹp\nChúc Đan luôn xinh tươi như hoa\n\n\n\n\n\n\n\n\nChúc Đan luôn giữ bình tĩnh 💗" 
+
+            },
+
+            { 
+
+                ma_so: "14", ho_ten: "Hoàng Thị Hương Giang", ten_anh: "Baby's Breath", ten_viet: "Hoa baby", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvDEZTg-f9UWp_s4B8gkklLMyt7mq_RCpT1oOdnbDKZQ&s=10",
+
+                ly_do: "Hoa baby gồm rất nhiều bông hoa trắng nhỏ li ti trên những cành mảnh. Dù mỗi bông không lớn, khi đứng cạnh nhau, chúng tạo thành một tổng thể mềm mại và đầy sức sống. Mình chọn hoa baby để tượng trưng cho những điều nhỏ bé làm nên tình bạn: một lời hỏi thăm, một lần giúp đỡ hay một kỷ niệm tưởng bình thường nhưng sau này lại rất đáng nhớ.", 
+
+                loi_chuc: "Nhân ngày Phụ nữ Việt Nam 20/10, chúc Giang luôn hạnh phúc, bình an và được yêu thương thật nhiều. Mong rằng những điều tốt đẹp sẽ luôn tìm đến, mọi nỗ lực đều được đền đáp xứng đáng và những ước mơ sẽ dần trở thành hiện thực. Chúc Giang luôn đủ mạnh mẽ để vượt qua khó khăn, đủ tự tin để theo đuổi đam mê và luôn tìm thấy niềm vui trong những điều giản dị nhất của cuộc sống." 
+
+            },
+
+            { 
+
+                ma_so: "15", ho_ten: "Sỳ Sầu Hếng", ten_anh: "Carnation", ten_viet: "Hoa cẩm chướng", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAwm8lYWKg2fGYyPqu7CB0BD3chn4vFv7nG5Feihx39w&s=10",
+
+                ly_do: "Cẩm chướng có những cánh hoa viền gợn sóng, xếp dày tạo cảm giác đầy đặn và ấm áp. Trong ngôn ngữ hoa, cẩm chướng thường gắn với tình cảm, sự quan tâm và lòng quý mến; ý nghĩa cụ thể còn tùy màu sắc. Mình chọn loài hoa này như lời nhắc rằng những sự quan tâm chân thành, dù nhỏ thôi, cũng có thể khiến một ngày trở nên tốt đẹp hơn.", 
+
+                loi_chuc: "Happy 20/10 Hếng nhaa! Chúc Hếng có một ngày 20/10 thật vui vẻ, hạnh phúc và nhận được thật nhiều yêu thương! Mong cô gái hiền lành, tốt bụng, luôn mang đến những năng lượng tích cực cho mọi người như Hếng sẽ gặp được những điều rực rỡ trong cuộc sống. Chúc Hếng sẽ luôn giữ được sự chân thành, ấm áp và nụ cười dễ thương của mình. Tuổi 17 mong Hếng sẽ có thật nhiều kỷ niệm đẹp, gặp được những người bạn, có những ngày vui đến mức chẳng cần lý do và những ước mơ từng chút một trở thành hiện thực. Mong Hếng luôn đủ tự tin để làm những điều mình thích, đủ mạnh mẽ để vượt qua những ngày không vui và luôn có những người sẵn sàng lắng nghe, sẻ chia mỗi khi cần. Chúc Hếng một ngày 20/10 thật đặc biệt nha!" 
+
+            },
+
+            { 
+
+                ma_so: "18", ho_ten: "Nguyễn Hoàng Ngọc Huyền", ten_anh: "Snowdrop", ten_viet: "Hoa giọt tuyết", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDV458woXXD2Xs1wUZNE9REOCrgot0pfkHuKpGLJ-_0A&s=10",
+
+                ly_do: "Giọt tuyết là loài hoa nhỏ màu trắng, thường nở vào cuối mùa đông hoặc khi thời tiết còn lạnh. Việc hoa xuất hiện giữa thời điểm khắc nghiệt khiến nó trở thành biểu tượng đẹp của hy vọng và sự khởi đầu mới. Mình chọn giọt tuyết để gửi gắm mong muốn rằng Ngọc Huyền sẽ luôn tin những ngày khó khăn rồi cũng qua và phía trước vẫn còn nhiều cơ hội tốt đẹp.", 
+
+                loi_chuc: "Chúc Huyền 20/10 thật vui vẻ nha! Mong rằng những ngày sắp tới của Huyền sẽ luôn nhẹ nhàng, học hành thuận lợi, bớt stress và có thật nhiều niềm vui. Cảm ơn Huyền vì đã góp một phần nhỏ làm cho những năm tháng cấp 3 của tụi mình trở nên vui vẻ và đáng nhớ hơn. Mong rằng sau này khi nhìn lại, Huyền sẽ luôn nhớ về những ngày tháng này với thật nhiều nụ cười. Chúc Huyền 20/10 thật hạnh phúc và luôn được yêu thương nhé!" 
+
+            },
+
+            { 
+
+                ma_so: ["17", "16"], 
+
+                ho_ten: " Quỳnh Hương &  Thiên Hương", 
+
+                ten_anh: "Sakura", 
+
+                ten_viet: "Hoa anh đào", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKbH3THOibgaqpwHYWdVdxIqcw1tr2tKV8ujzpltVV6g&s=10",
+
+                ly_do: "Hoa anh đào nở rộ rực rỡ và thanh tao, tượng trưng cho sức sống tuổi trẻ, sự gắn kết bền chặt và những khởi đầu tươi sáng, rạng rỡ nhất. Loài hoa này là biểu tượng tuyệt đẹp dành riêng cho cặp chị em sinh đôi luôn đồng hành cùng nhau.", 
+
+                loi_chuc: "Nhân ngày 20/10 này, chúc hai chị em Quỳnh Hương và Thiên Hương luôn giữ vững tinh thần rạng rỡ, đồng lòng vượt qua mọi thử thách, luôn yêu thương nhau và cùng nhau chạm tới mọi ước mơ trên chặng đường tương lai phía trước. Trai nhà A1 chúc Thiên Hương và Quỳnh Hương thật vui vẻ, hạnh phúc và đạt được nhiều thành công cũng như là đậu nguyện vọng 1 trong tương lai nhaaa. 20/10 hạnh phúccccc!" 
+
+            },
+
+            { 
+
+                ma_so: "21", ho_ten: "Phạm Hoàng Minh Khuê", ten_anh: "Violet", ten_viet: "Hoa violet", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkrmtEXb1dG91LDKJ98whqxqWIYRULUuUj69lXpY-D8g&s=10",
+
+                ly_do: "Violet có những bông hoa nhỏ với sắc tím đặc trưng, thường gắn với sự khiêm nhường, lòng trung thành và tình cảm bền lâu. Mình chọn violet vì màu tím dịu dàng không cần quá rực rỡ vẫn tạo được dấu ấn riêng, giống như lời nhắn rằng mọi người đều có giá trị theo cách của mình.", 
+
+                loi_chuc: "Aydo Khuê nhá. Lần này là lần 20/10 cuối cùng mà bọn mình có thể được tổ chức cho Khuê với mọi người rồi. Tuy rằng thật buồn vì sắp xa nhau, nhưng thật hạnh phúc vì chúng ta đã tạo ra những khoảng thời gian rất đẹp bên nhau. Thế nên, hãy cùng bọn mình tiếp tục bước đi nốt quãng đường còn lại của thời cấp 3 này nhé. Chúc Khuê năm nay gặp thật nhiều may mắn, thuận lời hơn trên con đường mình chọn. Luôn luôn tự tin vào bản thân, xinh đẹp hơn, được thành tích cao trọng học tập, đậu NV1 nhaaa. Cười nhiều lên nha bạn ơi, bạn đẹp lắm đó. Chúc 20/10 vui vẻ ngeng" 
+
+            },
+
+            { 
+
+                ma_so: "23", ho_ten: "Lê Nguyễn Trà My", ten_anh: "Aster", ten_viet: "Hoa thạch thảo", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVh-xOWDH41PpuOyCQxHxEWIazBtnr3YhtO4YghIhpg&s=10",
+
+                ly_do: "Thạch thảo có nhiều cánh nhỏ xếp quanh nhụy vàng, tạo thành bông hoa giản dị nhưng hài hòa. Trong ngôn ngữ hoa hiện đại, thạch thảo thường gắn với sự kiên nhẫn và tình cảm lâu bền. Mình chọn loài hoa này để nhắn Trà My rằng những mục tiêu lớn thường được tạo nên từ nhiều cố gắng nhỏ mỗi ngày.", 
+
+                loi_chuc: "Chúc My, cô thủ quỹ đáng tin của lớp, 20/10 thật vui nha! Chúc My tiền đầy ví, đồ ăn đầy bụng, bài tập thì tự động biến mất :)). Nhưng hơn hết, mong My lúc nào cũng vui vẻ, luôn có những người thật lòng bên cạnh và mỗi ngày đều có một lý do để mỉm cười. Cảm ơn My vì đã góp phần làm cho những năm tháng cấp 3 của tụi mình thêm nhiều kỷ niệm đáng nhớ. Sau này có thể mỗi đứa một nơi, nhưng mong rằng khi nhớ về thời học sinh, My vẫn sẽ nhớ đến những ngày tháng thật đẹp này. Chúc My 20/10 thật hạnh phúc nha!" 
+
+            },
+
+            { 
+
+                ma_so: "26", ho_ten: "Lê Trịnh Trúc Ngân", ten_anh: "Fern", ten_viet: "Dương xỉ", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4uN1pjbJuhYoelLQbjrxRQVAWZN8a22ONZtdE7mPMQ&s=10",
+
+                ly_do: "Dương xỉ không nổi bật bằng những bông hoa rực rỡ, nhưng có những chiếc lá xanh mọc thành tán và có thể phát triển ở nhiều môi trường khác nhau. Mình chọn dương xỉ như biểu tượng tự chọn cho sức sống bền bỉ: đôi khi sự trưởng thành không nằm ở việc nổi bật nhất, mà ở khả năng tiếp tục phát triển và thích nghi.", 
+
+                loi_chuc: "Trúc Ngân học giỏi khỏi bàn,\nNăng động, tích cực, ngập tràn tiếng cười.\nChúc Ngân luôn gặp vận may,\nBài thi trúng tủ, tháng ngày thảnh thơi.\nHai mươi tháng Mười vui tươi,\nTiền vào như nước, điểm mười như mưa! Đôi dòng thơ ca mà chúng mình gửi đến Trúc Ngân nha, hi vọng Trúc Ngân sẽ có một ngày 20/10 thật vui vẻ, hạnh phúc, may mắn. Học thật giỏi nhé Ngân, cuối cùng là chúc Ngân đậu nguyện vọng 1 mà mình đã chọn trong tương lai nhé. Fighting!!!" 
+
+            },
+
+            { 
+
+                ma_so: "27", ho_ten: "Kiều Kim Ngân", ten_anh: "Daisy", ten_viet: "Hoa cúc họa mi", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1YJ0ejbofqujHkV1EzxO2pknqLS2knDr0OSQAyoIZTQ&s=10",
+
+                ly_do: "Cúc họa mi có những cánh trắng mảnh bao quanh nhụy vàng, vẻ đẹp không cầu kỳ nhưng rất dễ tạo thiện cảm. Mình chọn cúc họa mi vì nó gợi đến sự giản dị và chân thành, đồng thời nhắc chúng ta rằng không cần điều gì quá lớn lao mới có thể làm nên một kỷ niệm đẹp.", 
+
+                loi_chuc: "Hello Ngân nha, hành trình đồng hành cùng nhau của chúng ta cũng sắp đi đến hồi kết rồi nhỉ. Trong khoảng thời gian vừa qua, cảm ơn Ngân đã cùng trai nhà A1 nói riêng và tập thể A1 nói chung tạo ra thật nhiều kỉ niệm đẹp khi bên nhau nhé. Nhân ngày 20/10 cuối cùng bọn mình được tổ chức lần này, chúc Ngân luôn giữ được sự hồn nhiên đáng quý, có thật nhiều tiếng cười và không ngừng khám phá những điều mới mẻ, chúc Ngân luôn hạnh phúc, gặp nhiều may mắn và có thật nhiều niềm vui trong cuộc sống. " 
+
+            },
+
+            { 
+
+                ma_so: "28", ho_ten: "Trần Nguyễn Bảo Ngân", ten_anh: "Holly", ten_viet: "Cây nhựa ruồi", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmusjD_JgFBQKdnj5mI8PD4KVJ4D-IBlG1G0S5HE6hCQ&s=10",
+
+                ly_do: "Cây nhựa ruồi có lá xanh đậm và những quả đỏ nổi bật, thường xuất hiện trong trang trí mùa đông và dịp lễ hội. Vì có thể giữ màu xanh trong mùa lạnh, cây thường được liên hệ với sự sống và sự bảo vệ. Mình chọn loài cây này để gửi lời chúc Bảo Ngân luôn có một nơi để trở về và những người yêu thương ở bên.", 
+
+                loi_chuc: "Chúc Ngân một ngày 20/10 thật vui vẻ và bình yên. Mong rằng trên chặng đường phía trước, Ngân sẽ luôn giữ được sự tự tin, tiếp tục theo đuổi những điều mình mong muốn và gặt hái được thật nhiều thành quả xứng đáng với những nỗ lực của bản thân. Nhưng bên cạnh những thành tích, mong Ngân cũng sẽ có thật nhiều niềm vui trong những ngày tháng tuổi trẻ này, bởi ngoài việc trưởng thành và đạt được những mục tiêu, những khoảnh khắc được vui vẻ bên bạn bè cũng là điều rất đáng trân trọng. Thời gian cấp 3 rồi sẽ qua nhanh, mong rằng những ngày tháng cùng 12A1 sẽ trở thành một phần ký ức thật đẹp của Ngân, để sau này khi nhớ lại, cậu có thể mỉm cười vì đã từng có một thanh xuân đáng nhớ đến vậy. Chúc Ngân luôn vững vàng, hạnh phúc và gặp được thật nhiều điều tốt đẹp trên hành trình của mình nhé!"
+
+            },
+
+            { 
+
+                ma_so: "29", ho_ten: "Làu Cẩm Bảo Nghi", ten_anh: "Honeysuckle", ten_viet: "Hoa kim ngân", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSOeHZfgE-vIXjmpi7iWfWhGWxbauhqFUwGpp1fE-BA&s=10",
+
+                ly_do: "Kim ngân là loài dây leo có những bông hoa hình ống, thường đổi từ trắng sang vàng khi nở. Hoa có hương thơm và thường gắn với sự gắn bó, tình cảm ấm áp. Mình chọn kim ngân vì những mối quan hệ đẹp cũng giống như dây leo: cần thời gian, sự quan tâm và những điều nhỏ bé để ngày càng bền chặt.", 
+
+                loi_chuc: "Chúc Nghi 20/10 thật vui vẻ và hạnh phúc nhaaa! Mong rằng cô gái dịu dàng, nhẹ nhàng và luôn sống tình cảm như Nghi sẽ có thật nhiều niềm vui trong cuộc sống. Nghi là một người luôn biết quan tâm đến mọi người xung quanh, và mình mong rằng những điều tốt đẹp mà Nghi trao đi sẽ luôn được nhận lại bằng thật nhiều yêu thương. Mong Nghi lúc nào cũng giữ được sự dịu dàng và ấm áp của mình.Tuổi 17 mong Nghi sẽ có thật nhiều kỷ niệm đẹp, gặp được những người chân thành và luôn có ai đó sẵn sàng ở bên mỗi khi Nghi cần. Chúc cô gái nhỏ luôn bình an, luôn mỉm cười thật tươi và được cuộc đời đối xử thật dịu dàng, giống như cách Nghi vẫn dịu dàng với mọi người vậy. Chúc Nghi một ngày 20/10 thật đặc biệt nha!" 
+
+            },
+
+            { 
+
+                ma_so: "30", ho_ten: "Nguyễn Minh Ngọc", ten_anh: "Four-leaf Clover", ten_viet: "Cỏ bốn lá", 
+
+                hinh_anh: "https://news.vio.vn/wp-content/uploads/2025/08/hinh-nen-co-4-la-cho-iphone-1.png",
+
+                ly_do: "Cỏ bốn lá có bốn lá nhỏ thường được xem là biểu tượng của may mắn và những điều tốt lành; phiên bản bốn lá hiếm gặp còn gắn với niềm tin về vận may. Mình chọn cỏ bốn lá để gửi đến Minh Ngọc một lời chúc may mắn, đồng thời nhắc rằng cơ hội tốt đẹp cũng đến từ sự chủ động và nỗ lực của chính mình.", 
+
+                loi_chuc: "Hello Ngọc nha, đây là đôi lời mà trai nhà A1 muốn gửi gắm đến Ngọc nhân ngày 20/10 này nhé. Chúc Ngọc luôn may mắn và tự tin trên con đường mình chọn. Chúc Ngọc luôn có đủ năng lượng, sức khỏe để mạnh mẽ vượt qua mọi cảm xúc, tự tay viết nên những cơ hội rực rỡ cho chính mình. Quãng đường cấp 3 còn lại của chúng ta không còn nhiều nữa rồi, duyên số cho chúng ta gặp được nhau nhưng cũng khiến ta phải xa nhau. Nhưng trai nhà A1 vẫn rất vui vì đã được cùng Ngọc và mọi người viết nên những kí ức thanh xuân thật đẹp của thời học sinh. Mong rằng Ngọc sẽ cùng chúng mình bước tiếp nốt quãng đường cấp 3 còn lại nhé. Sau tất cả, chúc Ngọc có một ngày 20/10 thật vui vẻ! (quên nyc đi nha)" 
+
+            },
+
+            { 
+
+                ma_so: "31", ho_ten: "Nguyễn Phạm Yến Nhi", ten_anh: "Coreopsis", ten_viet: "Hoa cánh bướm vàng", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGbjqTCJv10p1XYepdHgxl3qwI_L4BB8qYb8CY_Nkxw&s=10",
+
+                ly_do: "Coreopsis thường có những cánh hoa vàng tươi quanh nhụy nhỏ, tạo cảm giác giống những tia nắng. Loài hoa này thường được gắn với niềm vui và sự lạc quan. Mình chọn coreopsis vì mong Yến Nhi luôn có những ngày nhiều ánh sáng, nhiều trải nghiệm đáng mong chờ và những người khiến cuộc sống thêm vui vẻ.", 
+
+                loi_chuc: " Nếu phải chọn một hình ảnh để nói về Nhi, tụi mình nghĩ đến một mặt trời nhỏ, không cần làm điều gì quá đặc biệt, chỉ bằng sự năng động, nhiệt tình và nguồn năng lượng của mình cũng đủ khiến những người xung quanh cảm thấy vui vẻ hơn. Tụi mình nghĩ đó là một điều rất đáng quý, bởi không phải lúc nào niềm vui cũng đến từ những điều lớn lao; đôi khi chỉ cần ở cạnh một người khiến mình cảm thấy thoải mái,an tâm, được là chính mình và có thể cười thật tự nhiên cũng đã đủ làm một ngày trở nên tốt đẹp hơn. Chúc Nhi 20/10 thật rạng rỡ và nhiều niềm vui nha, mong Nhi sẽ luôn giữ được sự hồn nhiên và ấm áp ấy, nhưng cũng đừng quên dành cho bản thân những khoảng thời gian thật bình yên, để được nghỉ ngơi và làm những điều mình yêu thích. Cuối cùng thì, cảm ơn vì đã đến, cảm ơn vì đã đồng hành, cảm ơn vì đã luôn lắng nghe những tâm tư của chúng mình, cảm ơn vì đã luôn thấu hiểu và động viên và ..........................................cảm ơn vì đã mang lại cho chúng mình những năm tháng cấp 3 tươi đẹp nhất  🩷 "
+            },
+
+            { 
+
+                ma_so: "32", ho_ten: "Nguyễn Hoàng Thiên Nhi", ten_anh: "Poinsettia", ten_viet: "Hoa trạng nguyên", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMDs6W7TSlvdM9jM1wlF4HtgqBexs0ZQnc9qiWlE_DQ&s=10",
+
+                ly_do: "Trạng nguyên có những lá bắc đỏ xếp thành hình ngôi sao quanh cụm hoa nhỏ ở giữa, thường gắn với mùa lễ hội, sự hân hoan và thành công. Mình chọn loài hoa này như một lời chúc Thiên Nhi sẽ có thêm nhiều cột mốc đáng tự hào và luôn giữ niềm tin vào những chặng đường mới.", 
+
+                loi_chuc: "Hello Nhi, đến thời điểm này thì chúng ta đã đi được hơn nửa chặng đường cấp 3 rồi nhỉ. Sắp tới sẽ là khoảng thời gian khó khăn nhất, hy vọng Nhi sẽ đủ bản lĩnh và tự tin để cùng đồng hành với trai nhà A1 cùng nhau vượt qua khoảng thời gian đó nhé. Nhân ngày 20/10 cuối cùng này, chúc Thiên Nhi luôn xinh đẹp, vui vẻ và gặp thật nhiều điều may mắn , chúc Nhi sẽ luôn giữ được sự năng động, nhiệt tình và nụ cười tươi của mình, lúc nào cũng tự tin làm điều mình thích và gặt hái được nhiều thành công trong học tập, và đặc biệt là có thật nhiều niềm vui và những ngày tháng đáng nhớ bên bạn bè. Cuối cùng là hãy cùng nhau đậu nguyện vọng 1 nhé!"
+
+            },
+
+            { 
+
+                ma_so: "33", ho_ten: "Trần Thị Hồng Nhung", ten_anh: "Iris", ten_viet: "Hoa diên vĩ", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSw8LPJ6up8Vf7Olb2gzbv-MSxEMw3mtwuK_PT2-8fA&s=10",
+
+                ly_do: "Hoa diên vĩ có cấu trúc cánh đặc trưng, với các cánh vươn lên và cánh rủ xuống, thường có màu tím hoặc xanh nổi bật. Trong nhiều truyền thống, hoa tượng trưng cho hy vọng, trí tuệ và niềm tin. Mình chọn diên vĩ để gửi gắm mong muốn rằng Hồng Nhung sẽ luôn sáng suốt khi lựa chọn và vững tin vào khả năng của mình.", 
+
+                loi_chuc: "Hello Nhung, nhân ngày 20/10 cuối cùng mà trai nhà A1 được tổ chức cho Nhung và các bạn, chúc Nhung sẽ luôn xinh đẹp, đáng yêu, lúc nào cũng giữ được nụ cười trên môi và gặp thật nhiều điều tốt đẹp trong cuộc sống. Chúc Nhung học tập thật tốt, luôn đạt được những điều mình mong muốn và có thật nhiều người yêu thương, quan tâm, trân trọng Nhung. Bọn mình mong rằng dù sau này có gặp chuyện gì không vui thì Nhung vẫn sẽ đủ mạnh mẽ để vượt qua, bởi vì Nhung xứng đáng có được những điều tuyệt vời nhất. Hy vọng không chỉ hôm nay mà cả những ngày bình thường sau này, Nhung vẫn luôn vui vẻ, bình an và có thật nhiều lý do để mỉm cười. Chúc Nhung một ngày 20/10 thật ý nghĩa và đáng nhớ nhé! Hãy cùng nhau bước tiếp quãng đường cấp 3 còn lại và ẵm trọn nguyện vọng 1 về cho bản thân nhaaa! " 
+
+            },
+
+            { 
+
+                ma_so: "38", ho_ten: "Phạm Quỳnh Phương Thảo", ten_anh: "Sweet Pea", ten_viet: "Hoa đậu thơm", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSKJMuywDUx3CjymWC3_dHest8_Iw0cPb6QQlmTHklA&s=10",
+
+                ly_do: "Hoa đậu thơm có cánh mỏng, mềm và hình dáng hơi giống cánh bướm, thường có màu hồng, tím hoặc trắng cùng hương thơm nhẹ. Loài hoa này thường gợi đến niềm vui, sự biết ơn và những cuộc chia tay đẹp. Mình chọn hoa đậu thơm để nhắc đến những kỷ niệm mà chúng ta có thể trân trọng ngay cả khi sau này mỗi người đi một hướng.", 
+
+                loi_chuc: "Chào Thảo nhá, nhân ngày 20/10 này, trai nhà A1 chúc Thảo thật vui vẻ, hạnh phúc và tràn ngập những điều tốt đẹp nha. Mong Thảo sẽ luôn xinh đẹp, đáng yêu, lúc nào cũng giữ được nụ cười trên môi và luôn tự tin vào bản thân mình. Chúc Thảo học tập thật tốt, đạt được những điều mình mong muốn và luôn gặp may mắn trên chặng đường phía trước. Chúng mình hy vọng Thảo sẽ luôn được mọi người yêu thương, quan tâm và trân trọng, những ngày buồn sẽ ít đi còn những ngày vui sẽ nhiều hơn. Mong rằng dù cuộc sống có đôi lúc không như ý thì Thảo vẫn sẽ luôn mạnh mẽ, lạc quan và tìm thấy niềm vui từ những điều nhỏ bé nhất. Chúc Thảo không chỉ hôm nay mà cả những ngày sau này đều bình an, hạnh phúc và gặp thật nhiều điều tử tế. Cuối cùng là chúc Thảo sẽ đạt được nguyện vọng 1 trong tương lai nhaaa. Chaiyooo!!! " 
+
+            },
+
+            { 
+
+                ma_so: "39", ho_ten: "Lê Nguyễn Hoàng Thư", ten_anh: "Marigold", ten_viet: "Hoa cúc vạn thọ", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0-iS-j3lwOE2EuYzTuKvzlC9p9RhPDdulq899Je1hBQ&s=10",
+
+                ly_do: "Cúc vạn thọ có nhiều lớp cánh xếp dày, với màu vàng hoặc cam nổi bật. Ở nhiều nền văn hóa, loài hoa này gắn với sự ấm áp, sức sống và những dịp lễ hội. Mình chọn cúc vạn thọ để chúc Hoàng Thư luôn giữ được sự nhiệt tình với những điều mình yêu thích và mang theo tinh thần tích cực trong những chặng đường mới.", 
+
+                loi_chuc: "Chúc Mary Lee 20/10 thật vui vẻ và hạnh phúc nhé! Không chỉ hôm nay, mà mong rằng cả những ngày bình thường sau này cũng luôn có thật nhiều điều nhỏ bé khiến Mary Lee mỉm cười. Cảm ơn vì đã xuất hiện và góp phần làm cho những năm tháng cấp 3 của tụi mình trở nên nhiều màu sắc và đáng nhớ hơn. Thanh xuân có lẽ sẽ trôi qua rất nhanh, nên mong rằng chúng ta sẽ luôn có những kỷ niệm đẹp để sau này khi nhớ lại, vẫn có thể mỉm cười vì đã từng có một khoảng thời gian tuyệt vời như thế. Chúc Mary Lee luôn vui vẻ, được yêu thương và gặp thật nhiều điều tốt đẹp!" 
+
+            },
+
+            { 
+
+                ma_so: "40", ho_ten: "Phạm Ngọc Đan Thùy", ten_anh: "Hawthorn", ten_viet: "Hoa sơn tra", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGqkZ89kE8tK3hrgZmZVVOYayhvcuLqQ4uvFFx7zYwg&s=10",
+
+                ly_do: "Hoa sơn tra thường có những bông trắng nhỏ, năm cánh, mọc thành cụm trên cành. Trong một số truyền thống, cây sơn tra được gắn với hy vọng, tình yêu và sự bảo vệ. Mình chọn hoa này như lời chúc Đan Thùy luôn giữ được niềm tin vào những điều tốt đẹp, kể cả khi đang bước vào một giai đoạn mới của cuộc sống.", 
+
+                loi_chuc: " Nhân ngày 20/10, trai nhà A1 chúc Thùy ngày càng xinh đẹp, đáng yêu, học hành thuận lợi và từng bước thực hiện được những điều mà Thùy luôn mong muốn. Bọn mình hy vọng những cố gắng của Thùy sẽ được đền đáp xứng đáng, những điều Thùy chờ đợi sẽ dần trở thành hiện thực, còn những chuyện buồn rồi cũng sẽ qua đi để nhường chỗ cho những niềm vui mới. Mong rằng sau này, khi nhìn lại những năm tháng hiện tại, Thùy sẽ nhớ đến chúng bằng những kỷ niệm thật đẹp và những nụ cười thật lòng. Chúc Thùy một ngày 20/10 thật hạnh phúc nha, và mong rằng không chỉ hôm nay mà cả những ngày bình thường sau này, Thùy vẫn luôn có thật nhiều niềm vui và những người khiến Thùy cảm thấy cuộc sống này thật đáng yêuChúc Thùy luôn bình an, giữ niềm tin vào những điều tốt đẹp và đủ mạnh mẽ để bước qua mọi chặng đường mới." 
+
+            },
+
+            { 
+
+                ma_so: "41", ho_ten: "Vũ Thị Khánh Thùy", ten_anh: "Morning Glory", ten_viet: "Hoa bìm bìm", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe8gOgHbxMsFpR2TXb-ZcDPEhnWlqmiyn17QcG31-Klg&s=10",
+
+                ly_do: "Bìm bìm là loài dây leo có hoa hình phễu, thường nở vào buổi sáng và khép lại trong ngày ở nhiều giống. Đặc điểm ấy gợi liên tưởng đến nhịp điệu của mỗi ngày và những cơ hội luôn đổi mới. Mình chọn hoa bìm bìm để gửi gắm lời chúc Khánh Thùy luôn có điều mới mẻ để khám phá và mục tiêu để hướng đến.", 
+
+                loi_chuc: "Chúc Thùy có một ngày 20/10 thật vui vẻ và hạnh phúc nha. Mong rằng hôm nay Thùy sẽ nhận được thật nhiều lời chúc, nhiều niềm vui và những điều tốt đẹp nhất. Trai nhà A1 mong Thùy lúc nào cũng có thể vui vẻ, luôn nở nụ cười trên môi, luôn được mọi người yêu thương và trân trọng. Nếu có những ngày mệt mỏi hay buồn bã thì mong Thùy vẫn sẽ đủ mạnh mẽ để vượt qua, vì Thùy xứng đáng với những điều tốt đẹp nhất trên thế giới này. Chúc Thùy ngày càng xinh đẹp, học tập thật tốt, đạt được những điều mà bản thân mong muốn và luôn có những người thật lòng bên cạnh. Hy vọng ngày 20/10 của Thùy sẽ trở thành một ngày thật đáng nhớ, và không chỉ hôm nay mà cả những ngày sau nữa, Thùy đều sẽ có thật nhiều lý do để mỉm cười. Chúc Thùy luôn hạnh phúc, luôn là chính mình và luôn gặp được những điều dịu dàng nhất trong cuộc sống nhé!!!" 
+
+            },
+
+            { 
+
+                ma_so: "42", ho_ten: "Võ Phương Thùy", ten_anh: "Crocus", ten_viet: "Hoa nghệ tây mùa xuân", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb-VfBR6DVjKvsawiJ4yrO22RoOsrIQpmwabGYj3wITA&s=10",
+
+                ly_do: "Hoa nghệ tây có dáng hoa hình cốc, thường nở vào đầu xuân hoặc thời điểm giao mùa tùy loài. Hình ảnh những bông hoa xuất hiện sau thời gian lạnh giá thường được liên tưởng đến sự khởi đầu và niềm vui mới. Mình chọn hoa này để chúc Phương Thùy luôn tìm thấy động lực sau những ngày mệt mỏi và hào hứng với những trải nghiệm sắp đến.", 
+
+                loi_chuc: "Nhân ngày 20/10, trai nhà A1 muốn chúc Thùy có một ngày thật vui vẻ, bình yên và tràn ngập những điều dễ thương nha. Mong rằng hôm nay Thùy sẽ được cười thật nhiều, được nhận những món quà bất ngờ và cảm nhận được tình cảm chân thành từ những người xung quanh. Bọn mình hy vọng Thùy sẽ luôn giữ được sự đáng yêu của mình, luôn tự tin vào bản thân và đừng bao giờ vì những chuyện không vui mà đánh mất nụ cười nhé. Chúc Thùy học tập thật tốt, làm được những điều mình thích, đạt được những mục tiêu mà mình đặt ra và luôn có người ở bên chia sẻ cả những lúc vui lẫn lúc buồn. Cuối cùng, chúc Thùy không chỉ có một ngày 20/10 thật đẹp mà còn có thật nhiều ngày tháng hạnh phúc về sau. Mong những điều tốt đẹp nhất sẽ luôn tìm đến Thùy, bởi vì Thùy cũng là một người xứng đáng nhận được những điều tốt đẹp ấy."
+
+            },
+
+            { 
+
+                ma_so: "43", ho_ten: "Nguyễn Lê Hoài Thy", ten_anh: "Primrose", ten_viet: "Hoa anh thảo", 
+
+                hinh_anh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTloShjYWfREuKcINrt9xe-Vx6GlnL4DtZwFtdTeQfUXg&s=10",
+
+                ly_do: "Anh thảo thường có năm cánh hoa mềm xếp quanh phần tâm nổi bật, với các màu hồng, tím, vàng hoặc trắng. Hoa thường được gắn với tuổi trẻ, sự tươi mới và những khởi đầu mới. Mình chọn anh thảo để gửi lời nhắn Hoài Thy hãy luôn giữ sự tò mò, cởi mở trước những trải nghiệm mới và đừng ngại khám phá khả năng của bản thân.", 
+
+                loi_chuc: "Chao xìn chị bé Hoài Thyyy. Vậy là năm nay là năm cuối rồi, cũng là 20/10 cuối cùng bọn mình được tổ chức cho Thy và các bạn. Trong 2 năm vừa qua, trai nhà A1 chúng mình thật sự rất biết ơn Thy vì nhờ có Thy mà chúng ta đã có thêm rất nhiều những kí ức, kỉ niệm đáng nhớ của thời học sinh cấp 3. Thật không thể tả được mình sẽ buồn thế nào khi nghĩ đến ngày chúng ta phải nói lời tạm biệt, nhưng thay vì vậy chúng ta hãy cùng tạo ra thật nhiều kỉ niệm đẹp mới trong quãng đường còn lại của thời học sinh này nhé. Nhân ngày 20/10 thì mình chúc Thy thật nhiều nhiều nhiều sức khỏe, xinh đẹp hơn, học giỏi hơn và hơn hết là đậu NV1 nhaaa. Chị bé ơi cười nhiều lên nha, nhiều nhiều vào nha, chị bé dễ thương lắm đó. Một lần nữa chúc Thy có một ngày 20/10 thật hạnh phúc nha." 
+
+            }
+
+        ];
+const classPhotos = [{"src":"assets/jpg_04.jpg"},{"src":"assets/jpg_05.jpg"},{"src":"assets/jpg_06.jpg"},{"src":"assets/jpg_07.jpg"},{"src":"assets/jpg_08.jpg"},{"src":"assets/jpg_09.jpg"},{"src":"assets/jpg_10.jpg"},{"src":"assets/jpg_11.jpg"},{"src":"assets/jpg_12.jpg"},{"src":"assets/jpg_13.jpg"},{"src":"assets/jpg_14.jpg"},{"src":"assets/jpg_15.jpg"},{"src":"assets/jpg_16.jpg"},{"src":"assets/jpg_17.jpg"},{"src":"assets/jpg_18.jpg"},{"src":"assets/jpg_19.jpg"},{"src":"assets/jpg_20.jpg"},{"src":"assets/jpg_21.jpg"}];
+'use strict';
+const $ = id => document.getElementById(id);
+const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const sections = { intro:$('intro-view'), home:$('home-view'), result:$('result-view') };
+let letterTimers = [], activeGift = null, lightboxIndex = -1, holdTimer = null, holdFinished = false;
+const allCodes = new Map();
+giftData.forEach(item => (Array.isArray(item.ma_so) ? item.ma_so : [item.ma_so]).forEach(code => allCodes.set(String(code),item)));
+function showView(which){
+  Object.entries(sections).forEach(([key, el]) => el.hidden = key !== which);
+  window.scrollTo({top:0,behavior:'instant'});
+}
+function generateDecor(id, countPetals=7, countSparkles=12){
+  const layer=$(id);if(!layer)return;
+  const fragment=document.createDocumentFragment();
+  for(let i=0;i<countPetals;i++){
+    const petal=document.createElement('span');petal.className='petal';
+    petal.style.cssText=`--left:${7+i*13.3}% ;--fall:${8+(i*3)%8}s;--delay:${-(i*2.1)}s;--opacity:${(.17+(i%4)*.055).toFixed(2)};`;
+    fragment.appendChild(petal);
+  }
+  const marks=['·','✦','˚','✧'];
+  for(let i=0;i<countSparkles;i++){
+    const s=document.createElement('span');s.className='spark';s.textContent=marks[i%marks.length];
+    s.style.cssText=`--left:${4+(i*23)%91}%;--top:${6+(i*17)%87}%;--duration:${9+(i%5)*2}s;--delay:${-(i*.93)}s;`;
+    fragment.appendChild(s);
+  }
+  layer.appendChild(fragment);
+}
+['intro-decor','home-decor','result-decor'].forEach(id=>generateDecor(id,id==='result-decor'?4:7,id==='result-decor'?8:12));
+
+// Intro: press and hold, then flowers slowly bloom. No autoplay.
+const HOLD_MS=1350, holdBtn=$('hold-button');
+function startHold(ev){
+  if(holdFinished || holdTimer)return;
+  if(ev && ev.type==='pointerdown' && ev.button!==0)return;
+  holdBtn.classList.add('is-holding');
+  holdTimer=window.setTimeout(()=>{
+    holdTimer=null;holdFinished=true;
+    holdBtn.classList.remove('is-holding');
+    sections.intro.classList.add('is-bloomed');
+  },HOLD_MS);
+}
+function cancelHold(){if(holdTimer){clearTimeout(holdTimer);holdTimer=null;}holdBtn.classList.remove('is-holding');}
+holdBtn.addEventListener('pointerdown',startHold);
+['pointerup','pointercancel','pointerleave'].forEach(event=>holdBtn.addEventListener(event,cancelHold));
+holdBtn.addEventListener('keydown',e=>{if((e.key===' '||e.key==='Enter')&&!e.repeat){e.preventDefault();startHold();}});
+holdBtn.addEventListener('keyup',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();cancelHold();}});
+$('enter-diary').addEventListener('click',()=>showView('home'));
+
+// Polaroids: only the same photo array is reused, no photo labels shown.
+const positions=[
+  {x:'0.5%',y:'8%',angle:'-7deg',delay:'-2s'},
+  {x:'81%',y:'9%',angle:'7deg',delay:'-5s'},
+  {x:'2.5%',y:'49%',angle:'5deg',delay:'-1s'},
+  {x:'80%',y:'48%',angle:'-7deg',delay:'-7s'},
+  {x:'17%',y:'77%',angle:'-4deg',delay:'-4s'},
+  {x:'67%',y:'76%',angle:'6deg',delay:'-3s'}
+];
+function makePhoto(index,hero=false){
+  const button=document.createElement('button');button.type='button';
+  button.className='polaroid'+(hero?' hero-polaroid':'')+(index===0?' featured-cover':'');
+  button.setAttribute('aria-label',`Phóng to ảnh kỷ niệm ${index+1}`);
+  if(hero){const p=positions[index%positions.length];button.style.cssText=`--x:${p.x};--y:${p.y};--angle:${p.angle};--delay:${p.delay};--drift:${10+index%4*2}s`}
+  const img=document.createElement('img');img.src=classPhotos[index].src;img.alt=`Kỷ niệm lớp mình, ảnh ${index+1}`;
+  img.loading=hero?'eager':'lazy';img.decoding='async';
+  button.appendChild(img);button.addEventListener('click',()=>openLightbox(index));
+  return button;
+}
+// Nine newly selected photos lead both the floating hero and the album.
+// Older photos remain accessible in a separate, quieter page of the scrapbook.
+const FEATURED_COUNT=Math.min(classPhotos.length,9);
+const heroHolder=$('hero-photos'),albumHolder=$('album-grid'),extraHolder=$('extra-album-grid');
+for(let i=0;i<Math.min(FEATURED_COUNT,6);i++)heroHolder.appendChild(makePhoto(i,true));
+for(let i=0;i<FEATURED_COUNT;i++)albumHolder.appendChild(makePhoto(i));
+for(let i=FEATURED_COUNT;i<classPhotos.length;i++)extraHolder.appendChild(makePhoto(i));
+if(classPhotos.length<=FEATURED_COUNT)$('more-memories').hidden=true;
+
+// Lightbox: click, arrow keys, swipe and Escape.
+const lightbox=$('lightbox'),bigImage=$('lightbox-image');
+function openLightbox(index){lightboxIndex=(index+classPhotos.length)%classPhotos.length;bigImage.src=classPhotos[lightboxIndex].src;lightbox.hidden=false;document.body.style.overflow='hidden';$('lightbox-close').focus();}
+function closeLightbox(){lightbox.hidden=true;bigImage.removeAttribute('src');document.body.style.overflow='';}
+function changePhoto(step){lightboxIndex=(lightboxIndex+step+classPhotos.length)%classPhotos.length;bigImage.src=classPhotos[lightboxIndex].src;}
+$('lightbox-close').onclick=closeLightbox;
+$('lightbox-prev').onclick=()=>changePhoto(-1);
+$('lightbox-next').onclick=()=>changePhoto(1);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox||e.target.classList.contains('lightbox-content'))closeLightbox()});
+let startX=null;
+lightbox.addEventListener('touchstart',e=>{if(e.touches.length===1)startX=e.touches[0].clientX},{passive:true});
+lightbox.addEventListener('touchend',e=>{if(startX!==null){let delta=e.changedTouches[0].clientX-startX;if(Math.abs(delta)>48)changePhoto(delta>0?-1:1);startX=null;}},{passive:true});
+
+// Only start music after explicit toggle.
+const music=$('bg-music'),musicToggle=$('music-toggle'); music.volume=.33;
+musicToggle.onclick=async()=>{
+  if(!music.paused){music.pause();updateMusic(false);return;}
+  try{await music.play();updateMusic(true);}catch(e){updateMusic(false);$('music-label').textContent='Không phát được nhạc, thử lại nhé';}
+};
+function updateMusic(on){$('music-symbol').textContent=on?'🔊':'🔇';$('music-label').textContent=on?'Tắt nhạc':'Bật nhạc';musicToggle.setAttribute('aria-pressed',String(on));musicToggle.setAttribute('aria-label',on?'Tắt nhạc nền':'Bật nhạc nền');}
+
+const searchModal=$('search-modal'),codeInput=$('gift-code');
+function openSearch(){searchModal.hidden=false;document.body.style.overflow='hidden';$('code-error').hidden=true;requestAnimationFrame(()=>codeInput.focus());}
+function closeSearch(){searchModal.hidden=true;document.body.style.overflow='';}
+$('open-gift').onclick=openSearch;
+$('search-close').onclick=closeSearch;
+searchModal.addEventListener('click',e=>{if(e.target===searchModal)closeSearch();});
+$('gift-form').addEventListener('submit',e=>{
+  e.preventDefault();let code=codeInput.value.trim();if(/^\d+$/.test(code))code=code.padStart(2,'0');
+  const found=allCodes.get(code);
+  if(!found){$('code-error').hidden=false;codeInput.focus();return;}
+  closeSearch();openGift(found);
+});
+codeInput.addEventListener('input',()=>{$('code-error').hidden=true});
+
+function clearLetterTimers(){letterTimers.forEach(id=>clearTimeout(id));letterTimers=[];}
+function later(fn,delay){const id=setTimeout(fn,delay);letterTimers.push(id);return id;}
+function openGift(gift){
+  activeGift=gift;clearLetterTimers();$('person-name').textContent=gift.ho_ten.trim();
+  $('flower-vietnamese').textContent=gift.ten_viet.trim();$('flower-english').textContent=gift.ten_anh;
+  const flower=$('flower-image');flower.style.animation='none';void flower.offsetWidth;flower.style.animation='';
+  // Show a botanical illustration immediately; switch to the original flower photo once loaded.
+  const fallbackFlower='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect width="300" height="300" fill="#fff5ef"/><g fill="none" stroke="#af9e91" stroke-width="3" opacity=".7"><path d="M150 261Q150 203 150 138"/><path d="M150 227Q99 202 90 165Q140 176 150 227"/><path d="M150 204Q194 171 212 153Q180 160 150 204"/></g><g fill="#efd1c8" stroke="#cfaaa0" stroke-width="2"><ellipse cx="150" cy="94" rx="25" ry="46"/><ellipse cx="150" cy="94" rx="25" ry="46" transform="rotate(72 150 112)"/><ellipse cx="150" cy="94" rx="25" ry="46" transform="rotate(144 150 112)"/><ellipse cx="150" cy="94" rx="25" ry="46" transform="rotate(216 150 112)"/><ellipse cx="150" cy="94" rx="25" ry="46" transform="rotate(288 150 112)"/></g><circle cx="150" cy="112" r="17" fill="#f8e9dc" stroke="#cfaaa0"/></svg>';
+  flower.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(fallbackFlower);
+  const testImage=new Image();
+  testImage.onload=()=>{if(activeGift===gift)flower.src=gift.hinh_anh;};
+  testImage.onerror=()=>{};
+  testImage.src=gift.hinh_anh;
+  $('envelope-prompt').hidden=false;$('letter-sheet').hidden=true;$('letter-wish').textContent='';
+  $('letter-name').textContent=gift.ho_ten.trim();$('letter-signoff').classList.remove('show');$('letter-reason').classList.remove('show');
+  $('letter-reason-text').textContent='';showView('result');
+}
+$('back-home').onclick=()=>{clearLetterTimers();showView('home');};
+$('open-letter').onclick=()=>{
+  if(!activeGift)return;
+  $('envelope-prompt').hidden=true;$('letter-sheet').hidden=false;
+  const wish=$('letter-wish');wish.textContent='';
+  $('letter-reason-text').textContent=activeGift.ly_do;
+  const words=activeGift.loi_chuc.trim().split(/\s+/);
+  const startDelay=reduceMotion?0:920;
+  const rate=reduceMotion?0:115;
+  if(reduceMotion){wish.textContent=activeGift.loi_chuc;showLetterTail();}
+  else{
+    words.forEach((word,i)=>later(()=>{wish.textContent+=(i===0?'':' ')+word;},startDelay+i*rate));
+    later(showLetterTail,startDelay+words.length*rate+330);
+  }
+  later(()=>{$('letter-sheet').scrollIntoView({behavior:reduceMotion?'auto':'smooth',block:'nearest'});},180);
+};
+function showLetterTail(){
+  $('letter-signoff').classList.add('show');
+  later(()=>$('letter-reason').classList.add('show'),reduceMotion?0:750);
+}
+// Close dialogs with Esc and navigate lightbox via arrow keys.
+document.addEventListener('keydown',e=>{
+  if(!lightbox.hidden){if(e.key==='Escape')closeLightbox();if(e.key==='ArrowLeft')changePhoto(-1);if(e.key==='ArrowRight')changePhoto(1);return;}
+  if(e.key==='Escape'&&!searchModal.hidden)closeSearch();
+});
+
+</script>
+
+
+<script id="a1-tiny-controller">
+(function(){
+  var shell=document.getElementById('a1-tiny-shell');
+  var frame=document.getElementById('a1-tiny-frame');
+  var skip=document.getElementById('a1-skip-intro');
+  var finished=false;
+  function finish(){
+    if(finished)return;
+    finished=true;
+    try{var soundtrack=frame.contentDocument.getElementById('tiny-soundtrack');if(soundtrack)soundtrack.pause();}catch(e){}
+    shell.classList.add('a1-leaving');
+    setTimeout(function(){frame.removeAttribute('srcdoc');frame.src='about:blank';shell.remove();},2350);
+  }
+  window.addEventListener('message',function(event){
+    if(event.source===frame.contentWindow&&event.data&&event.data.type==='A1_TINY_INTRO_DONE')finish();
+  });
+  skip.addEventListener('click',finish);
+  // Load the full original intro as a separate lightweight HTML page.
+  frame.src='intro.html';
+})();
+</script>
+</body>
+</html>
